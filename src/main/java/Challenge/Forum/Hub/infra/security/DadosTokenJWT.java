@@ -1,5 +1,4 @@
 package Challenge.Forum.Hub.infra.security;
 
-public class SecurityConfiguration {
-
+public record DadosTokenJWT(String token) {
 }
